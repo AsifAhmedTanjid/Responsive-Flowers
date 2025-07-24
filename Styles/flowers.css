@@ -1,0 +1,46 @@
+
+.work-sans-inter {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+body{
+    max-width: 1140px;
+    margin: 30px auto;
+    background-color: #F5F8FF;
+}
+
+/* banner style  */
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    height: 82px;
+    width: 135px;
+}
+
+nav>ul {
+
+    display: flex;
+    gap: 48px;
+    list-style: none;
+    
+
+}
+
+#home-link{
+    color: #000000;
+}
+#cart{
+     color: #000000;
+}
+
+nav>ul a{
+    text-decoration: none;
+    color: #8987A1;
+}
+
