@@ -12,6 +12,10 @@ p {
   padding: 0;
 }
 
+button:hover{
+    cursor: pointer;
+}
+
 /* fonts  */
 
 .inter-font {
@@ -215,7 +219,7 @@ nav > ul a {
 .latest-deal-card-1{
     height: 201px;
     width: 367px;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/assets/deal-bloom.png');
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../assets/deal-bloom.png');
     background-size: auto auto;
     background-repeat: no-repeat;
     display: flex;
@@ -230,7 +234,7 @@ nav > ul a {
 .latest-deal-card-3{
     height: 201px;
     width: 367px;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/assets/deal-ana.png');
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../assets/deal-ana.png');
     background-size: auto auto;
     background-repeat: no-repeat;
     display: flex;
@@ -242,7 +246,7 @@ nav > ul a {
 .latest-deal-card-2{
     height: 423.13px;
     width: 753px;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/assets/deal-zabo.png');
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../assets/deal-zabo.png');
     background-size: auto auto;
     background-repeat: no-repeat;
     display: flex;
@@ -260,6 +264,55 @@ nav > ul a {
 .latest-deal-card-2>.latest-deal-link{
     font-size: 1.75rem;
 }
+
+
+/* join section  */
+.join-section{
+    margin-top: 120px;
+    width: 1440px;
+    margin-right: -150px;
+    margin-left: -150px;
+    background-image: url('../assets/news-letter-bg.png');
+    background-size: auto auto;
+    background-repeat: no-repeat;
+    height: 533px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.join-title{
+    font-size: 3rem;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 23px;
+}
+.join-form{
+    display: flex;
+}
+.join-email{
+    background-color: white;
+    border: none;
+    height: 50px;
+    width: 644px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    font-size: 1.5rem;
+}
+
+.join-button{
+    
+  background-color: #e95a08;
+  color: #ffffff;
+  padding: 19px 80px;
+  font-size: 1rem;
+  font-weight: 600;
+  
+  border: none;
+}
+
 
 
 /* responsiveness for mobile devices */
@@ -368,6 +421,6 @@ nav > ul a {
     height: 185px;
 }
 .latest-deal {
-  margin-top: 20px;
+  margin-top: 65px;
 }
 }
