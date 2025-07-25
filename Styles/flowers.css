@@ -1,12 +1,10 @@
-.hidden{
-    display: none;
+.hidden {
+  display: none;
 }
 
-.border{
-    border: 2px solid tomato;
+.border {
+  border: 2px solid tomato;
 }
-
-
 
 /* fonts  */
 
@@ -20,83 +18,108 @@
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+  font-variation-settings: "wdth" 100;
 }
 
-body{
-    max-width: 1140px;
-    margin: 30px auto;
-    background-color: #F5F8FF;
+body {
+  max-width: 1140px;
+  margin: 30px auto;
+  background-color: #f5f8ff;
 }
 
-.paragraph-font{
-    color: rgba(0, 0, 0, 0.5);
-    font-size: 1.375rem;
-    font-weight: 400;
+.paragraph-font {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.375rem;
+  font-weight: 400;
 }
-
-
-
 
 /* navbar */
 
-.nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
 }
-.logo{
-    height: 82px;
-    width: 135px;
-}
-
-nav>ul {
-
-    display: flex;
-    gap: 48px;
-    list-style: none;
-    
-
+.logo {
+  height: 82px;
+  width: 135px;
 }
 
-#home-link{
-    color: #000000;
-}
-#cart{
-     color: #000000;
-}
-
-nav>ul a{
-    text-decoration: none;
-    color: #8987A1;
+nav > ul {
+  display: flex;
+  gap: 48px;
+  list-style: none;
 }
 
+#home-link {
+  color: #000000;
+}
+#cart {
+  color: #000000;
+}
+
+nav > ul a {
+  text-decoration: none;
+  color: #8987a1;
+}
 
 /* banner style  */
 
-.banner{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 
-.banner-img{
-    margin-top: 106px;
+.banner-img {
+  margin-top: 106px;
 }
 
-.banner-content h1{
-    margin-bottom: 13px;
+.banner-content h1 {
+  margin-bottom: 13px;
 }
-.banner-content p{
-    margin: 0;
-    padding: 0;
+.banner-content p {
+  margin: 0;
+  padding: 0;
 }
-.banner-title{
-    font-size: 2.9rem;
+.banner-title {
+  font-size: 2.9rem;
 }
-.fresh-flowers{
-    color: #E95A08;
+.fresh-flowers {
+  color: #e95a08;
 }
 
+/* responsiveness for mobile devices */
 
+@media screen and (max-width: 576px) {
+  .phone-hidden {
+    display: none;
+  }
+  .nav {
+    margin: 67px 16px 0px 16px;
+  }
+
+  .banner {
+    flex-direction: column-reverse;
+  }
+
+  .paragraph-font {
+    font-size: 0.875rem;
+  }
+  .logo {
+    height: 38px;
+    width: 63px;
+  }
+
+  .banner-title {
+    font-size: 1.5rem;
+  }
+  .banner-img {
+    height: 245px;
+    width: 393px;
+  }
+  .banner-content{
+    margin: 28px 16px;
+  }
+}
