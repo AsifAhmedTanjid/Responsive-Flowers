@@ -228,6 +228,9 @@ nav > ul a {
     margin-bottom: 28px;
   }
 
+  .our-plants-title{
+    font-size: 1.5rem;
+  }
   .card-container {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -239,5 +242,27 @@ nav > ul a {
   }
   .card button {
     padding: 20px 30px;
+  }
+
+  /* plant lover section  */
+  .plant-lover{
+    flex-direction: column;
+    margin-top: 42px;
+  }
+  .plant-lover-img{
+    height: 396px;
+    width: 100%;
+    margin-bottom: -10px;
+  }
+  .trusted-badge{
+    display: none;
+  }
+  .plant-lover-title{
+    font-size: 1.5rem;
+    /* margin-top: 18px; */
+  }
+  .plant-lover-list{
+    margin-left: -20px;
+    gap: 16px;
   }
 }
